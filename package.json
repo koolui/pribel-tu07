@@ -1,0 +1,35 @@
+{
+  "name": "pribel-tu07",
+  "version": "1.0.0",
+  "description": "Free HTML Pricing Table - Bootstrap 4 Template #7",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koolui/pribel-tu07.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "bootstrap",
+    "freebie",
+    "pricingtable",
+    "pricing"
+  ],
+  "author": "Kool UI Studio",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/koolui/pribel-tu07/issues"
+  },
+  "homepage": "https://github.com/koolui/pribel-tu07#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-sass": "^4.0.2"
+  }
+}

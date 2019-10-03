@@ -1,0 +1,153 @@
+/*!
+ * pribel-tu07
+ * Free HTML Pricing Table - Bootstrap 4 Template #7
+ * git+https://github.com/koolui/pribel-tu07.git
+ * @author Kool UI Studio
+ * @version 1.0.0
+ * Copyright 2019. SEE LICENSE IN README.md licensed.
+ */
+.adscard {
+  padding: 10px;
+  background: #ffffff;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .adscard:after {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    content: "Affiliate";
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0 6px;
+    font-size: 10px; }
+  .adscard--live {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .adscard__img {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px; }
+    .adscard__img img {
+      width: 80px;
+      border-radius: 3px; }
+  .adscard__caption {
+    margin: 0;
+    line-height: 16px;
+    font-size: 14px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .adscard__caption a {
+      text-decoration: none;
+      color: #434343; }
+      .adscard__caption a:hover {
+        text-decoration: underline; }
+    .adscard__caption span {
+      display: block; }
+    .adscard__caption__secondary {
+      font-size: 12px;
+      margin-top: 5px; }
+      .adscard__caption__secondary > a {
+        color: #999999; }
+
+.livedemo {
+  padding-top: 80px; }
+  .livedemo nav .form-inline .btn {
+    margin-right: 6px; }
+    .livedemo nav .form-inline .btn:last-child {
+      margin-right: 0; }
+  .livedemo .footerdemo {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    color: #999999; }
+
+body {
+  font-size: 16px;
+  color: #222827;
+  background-color: #EEEEEE; }
+
+.koolui-pribel-tu07 {
+  font-family: "Barlow", sans-serif;
+  padding: 60px 0; }
+  .koolui-pribel-tu07 .item {
+    border-radius: 8px;
+    margin-bottom: 45px;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 30px; }
+    .koolui-pribel-tu07 .item .btn.btn-outline-primary {
+      color: #0575E6;
+      border-color: #0575E6;
+      height: 44px;
+      border-radius: 22px;
+      font-weight: 700;
+      font-size: .875rem;
+      position: relative;
+      margin-bottom: 10px; }
+      .koolui-pribel-tu07 .item .btn.btn-outline-primary:hover {
+        color: #FFFFFF;
+        background-color: #0575E6;
+        border-color: #0575E6; }
+    .koolui-pribel-tu07 .item--popular {
+      background-color: #0575E6;
+      color: #FFFFFF; }
+      .koolui-pribel-tu07 .item--popular .item__heading h3 span {
+        color: #0575E6;
+        background-color: #FFFFFF; }
+      .koolui-pribel-tu07 .item--popular .item__content ul li {
+        color: #FFFFFF; }
+      .koolui-pribel-tu07 .item--popular .btn.btn-outline-primary {
+        color: #FFFFFF;
+        border-color: #FFFFFF; }
+        .koolui-pribel-tu07 .item--popular .btn.btn-outline-primary:hover {
+          color: #0575E6;
+          background-color: #FFFFFF;
+          border-color: #FFFFFF; }
+    @media screen and (min-width: 992px) {
+      .koolui-pribel-tu07 .item {
+        margin-bottom: 0; } }
+    .koolui-pribel-tu07 .item__heading h3 {
+      font-size: .8752rem;
+      font-weight: 700;
+      line-height: 1.25rem;
+      margin: 0;
+      margin-bottom: 20px;
+      margin-top: 10px; }
+      .koolui-pribel-tu07 .item__heading h3 > span {
+        background-color: #0575E6;
+        color: #FFFFFF;
+        padding: 5px 30px;
+        border-radius: 15px; }
+    .koolui-pribel-tu07 .item__content ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      margin-bottom: 30px; }
+      .koolui-pribel-tu07 .item__content ul li {
+        line-height: 28px;
+        margin: 0;
+        font-size: .875rem;
+        color: #8898A7; }
+    .koolui-pribel-tu07 .item__pricing p {
+      font-size: 2.25rem;
+      font-weight: 700;
+      line-height: 2.625rem;
+      margin: 0;
+      margin-bottom: 30px; }
+      .koolui-pribel-tu07 .item__pricing p small {
+        display: block;
+        font-size: .75rem;
+        line-height: .875rem;
+        margin: 0; }

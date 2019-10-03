@@ -1,0 +1,137 @@
+// Import necessary styling for demo only (You dont need this)
+@import 'demo/ads.scss';
+@import 'demo/demo.scss';
+
+// Import variable
+@import 'vars.scss';
+
+
+body {
+    font-size: $root-font-size;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+// Begin pricing table styling
+.koolui-pribel-tu07 {
+    font-family: $custom-google-font;
+    padding: $gap * 2 0;
+    
+    // Pricing table item
+    .item {
+        border-radius: $item-border-radius;
+        margin-bottom: $gap * 1.5;
+        background-color: $base-color;
+        position:relative;
+        padding: $gap;
+
+        // Button
+        .btn.btn-outline-primary {
+            color: $primary-color;
+            border-color: $primary-color;
+            height: $button-height;
+            border-radius: $button-height / 2;
+            font-weight: 700;
+            font-size: .875rem;
+            position: relative;
+            margin-bottom: $gap / 3;
+            &:hover {
+                color: $base-color;
+                background-color: $primary-color;
+                border-color: $primary-color;
+            }
+        }
+
+        // Popular
+        &--popular {
+            background-color: $primary-color;
+            color: $base-color;
+
+            .item {
+
+                // Typography
+                &__heading {
+                    h3 span {
+                    color: $primary-color;
+                    background-color: $base-color;
+                    }
+                }
+
+                // Content
+                &__content {
+                    ul li {
+                        color: $base-color;
+                    }
+                }
+            }
+
+            // Button
+            .btn.btn-outline-primary {
+                color: $base-color;
+                border-color: $base-color;
+                &:hover {
+                    color: $primary-color;
+                    background-color: $base-color;
+                    border-color: $base-color;
+                }
+            }
+            
+        }
+        
+        // Medium devices (tablets, 992px and up)
+        @media screen and (min-width: 992px) {
+            margin-bottom: 0;
+        }
+
+        // Typography
+        &__heading {
+            h3 {
+                font-size: .8752rem;
+                font-weight: 700;
+                line-height: 1.25rem;
+                margin: 0;
+                margin-bottom: $gap / 1.5;
+                margin-top: $gap / 3;
+                > span {
+                    background-color: $primary-color;
+                    color: $base-color;
+                    padding: $gap / 6 $gap;
+                    border-radius: $gap / 2;
+                }
+            }
+        }
+
+        // Item content
+        &__content {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                margin-bottom: $gap;
+                li {
+                    line-height: $list-item-height;
+                    margin: 0;
+                    font-size: .875rem;
+                    color: $text-muted-color;
+                }
+            }
+        }
+
+        // Pricing
+        &__pricing {
+            p {
+                font-size: 2.25rem;
+                font-weight: 700;
+                line-height: 2.625rem;
+                margin: 0;
+                margin-bottom: $gap;
+                small {
+                    display: block;
+                    font-size: .75rem;
+                    line-height: .875rem;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
